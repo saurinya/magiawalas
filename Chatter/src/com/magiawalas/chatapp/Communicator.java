@@ -25,6 +25,7 @@ public class Communicator implements Runnable
 		try 
 		{
 			// Console cs = System.console();
+			// I changed this.
 			// Get the Input Stream from the socket..
 			InputStream is = s.getInputStream();
 			OutputStream os = s.getOutputStream();
